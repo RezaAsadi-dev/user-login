@@ -87,7 +87,7 @@ export function AuthForm() {
         <Input
           id="phoneNumber"
           label="Phone Number"
-          type="tel"
+          type="number"
           placeholder="09123456789"
           error={errors.phoneNumber?.message}
           {...register("phoneNumber")}
